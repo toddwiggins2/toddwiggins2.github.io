@@ -79,7 +79,7 @@ section {
 
 .topnav a:hover {
   border-bottom: 1.5px solid #f2e9e4;
-  color:orangered;
+  color: orangered;
 }
 
 #menu-icon {
@@ -144,7 +144,7 @@ section {
 }
 
 .social-links {
-  display:flex;
+  display: flex;
   justify-content: space-around;
   color: #22223b;
   font-size: 5rem;
@@ -154,7 +154,6 @@ section {
   /* padding: 0 45px 0 45px; */
   color: #22223b;
   /* text-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  
 }
 
 /* ******************************
@@ -351,4 +350,3 @@ section {
     color: #22223b;
   }
 }
-
