@@ -5,76 +5,265 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <title>Todd Wiggins Portfolio</title>
   </head>
   <body>
-    <div class="idLeft">
-      <div id="idPhoto" class="idPhoto">
-        <img
-          src="photo.jpg"
-          alt="Example Photo"
-          style="width: auto; height: 180px"
-        />
+    <header class="header">
+      <h1>Todd Wiggins</h1>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <nav class="topnav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a id="contactMe"
+          href="mailto:toddwiggins2@gmail.com?subject=ATTN: Todd message from porfolio website."
+          >Contact</a
+        >
+      </nav>
+    </header>
+
+    <section class="homeSection" id="home">
+      <div class="idSection">
+        <div class="idLeft">
+          <div id="idPhoto" class="idPhoto">
+            <img
+              src="img/coder.png"
+              alt="Example Photo"
+              style="width: auto; height: 180px"
+            />
+          </div>
+          <div class="idList">
+            <h1>Todd Wiggins</h1>
+            <p>Frontend Developer</p>
+            <div>
+              <button class="btn1" onclick="emailFunction()">Contact</button>
+              <button class="btn1">Code</button>
+            </div>
+            <!-- <ul>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul> -->
+          </div>
+        </div>
       </div>
 
-      <div class="idList">
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph.</p>
-        <ul>
-          <li>About Me</li>
-          <!-- <br /> -->
-          <li>Portfolio</li>
-          <!-- <br /> -->
-          <li>Resume</li>
-          <!-- <br /> -->
-          <li>Skills</li>
-          <!-- <br /> -->
-          <li>Contact</li>
-        </ul>
-      </div>
-    </div>
+      <div class="idSection">
+        <div class="idRight">
+          <h2>This is a Heading</h2>
+          <p>
+            &emsp;Boilerplate text, or simply boilerplate, is any written text
+            (copy) that can be reused in new contexts or applications without
+            significant changes to the original. The term is used about
+            statements, contracts, and computer code, and is used in the media
+            to refer to hackneyed or unoriginal writing.
+          </p>
+          <button class="btn1" type="button">Click Me!</button>
+        </div>
 
-    <div class="idSection">
-      <div class="idRightOne">
-        <h2>This is a Heading</h2>
+        <div class="idRight">
+          <h2>This is a Heading</h2>
+          <p>
+            &emsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Omnis ducimus possimus illum quo modi, eveniet aspernatur distinctio
+            laborum quidem minima voluptatibus dolore ex ipsa vel velit non?
+            Sapiente, culpa aliquid? Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Soluta dignissimos ipsum amet, architecto quae
+            molestiae esse reiciendis vero beatae quo, enim maxime, officiis
+            incidunt voluptatem doloribus unde harum atque dolor.
+            <br />
+            &emsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+            alias praesentium dolorum numquam nesciunt labore beatae iure
+            voluptate magnam quas. Debitis, voluptas quo error ipsum totam dicta
+            corporis sed facilis?
+          </p>
+          <button class="btn1" type="button">Click Me!</button>
+        </div>
+
+        <div class="idRight">
+          <h2>This is a Heading</h2>
+          <p>
+            &emsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Itaque voluptatum consequuntur fuga commodi amet quod quasi, maxime,
+            cumque cupiditate atque eius, inventore voluptas? Inventore officia
+            hic, deserunt doloremque accusantium laborum?
+          </p>
+          <button class="btn1" type="button">Click Me!</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-content">
+        <h1>About</h1>
         <p>
-          &emsp;Boilerplate text, or simply boilerplate, is any written text (copy)
-          that can be reused in new contexts or applications without significant
-          changes to the original. The term is used about statements, contracts,
-          and computer code, and is used in the media to refer to hackneyed or
-          unoriginal writing.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
+          atque, quo facilis culpa voluptate veritatis est. Nostrum provident
+          accusamus dolorum mollitia vero dolor, facere reprehenderit animi iure
+          repellat odio! Corporis! orem ipsum dolor sit amet consectetur
+          adipisicing elit. Aperiam distinctio facilis eius sunt, repudiandae
+          hic sapiente. Temporibus odit dicta expedita reprehenderit maxime
+          cumque provident suscipit deserunt repellat! Sint sunt consequatur
+          mollitia. Asperiores quidem nam veniam, rerum eum accusamus, ut
+          incidunt expedita non quo fugiat distinctio iure repudiandae
+          reprehenderit, velit consectetur sit porro sed. Laboriosam ratione
+          blanditiis consequuntur nostrum maiores, quo esse animi reiciendis
+          laudantium voluptatem! Ipsa quod reiciendis maxime provident quae
+          laborum doloribus, harum ratione earum optio quas accusamus
+          consequatur quaerat sed repudiandae, incidunt vitae error fugit illum
+          ea sequi impedit ipsam ducimus accusantium? In fugit reiciendis illo
+          vel veritatis quisquam enim delectus fuga ullam, inventore saepe
+          voluptatem ratione neque hic, error incidunt dolorem nobis
+          perspiciatis sapiente suscipit cumque autem?
         </p>
-        <button class="btn1" type="button">Click Me!</button>
       </div>
+    </section>
 
-      <div class="idRightTwo">
-        <h2>This is a Heading</h2>
+    <section class="resume" id="resume">
+      <div class="resume-content">
+        <h1>Resume</h1>
         <p>
-          &emsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
-          ducimus possimus illum quo modi, eveniet aspernatur distinctio laborum
-          quidem minima voluptatibus dolore ex ipsa vel velit non? Sapiente,
-          culpa aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Soluta dignissimos ipsum amet, architecto quae molestiae esse
-          reiciendis vero beatae quo, enim maxime, officiis incidunt voluptatem
-          doloribus unde harum atque dolor. 
-          <br> &emsp;Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Iste alias praesentium dolorum numquam
-          nesciunt labore beatae iure voluptate magnam quas. Debitis, voluptas
-          quo error ipsum totam dicta corporis sed facilis?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          distinctio facilis eius sunt, repudiandae hic sapiente. Temporibus
+          odit dicta expedita reprehenderit maxime cumque provident suscipit
+          deserunt repellat! Sint sunt consequatur mollitia. Asperiores quidem
+          nam veniam, rerum eum accusamus, ut incidunt expedita non quo fugiat
+          distinctio iure repudiandae reprehenderit, velit consectetur sit porro
+          sed. Laboriosam ratione blanditiis consequuntur nostrum maiores, quo
+          esse animi reiciendis laudantium voluptatem! Ipsa quod reiciendis
+          maxime provident quae laborum doloribus, harum ratione earum optio
+          quas accusamus consequatur quaerat sed repudiandae, incidunt vitae
+          error fugit illum ea sequi impedit ipsam ducimus accusantium? In fugit
+          reiciendis illo vel veritatis quisquam enim delectus fuga ullam,
+          inventore saepe voluptatem ratione neque hic, error incidunt dolorem
+          nobis perspiciatis sapiente suscipit cumque autem?
         </p>
-        <button class="btn1" type="button">Click Me!</button>
       </div>
+    </section>
 
-      <div class="idRightThree">
-        <h2>This is a Heading</h2>
+    <section class="education" id="education">
+      <div class="education-content">
+        <h1>Education</h1>
         <p>
-          &emsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-          voluptatum consequuntur fuga commodi amet quod quasi, maxime, cumque
-          cupiditate atque eius, inventore voluptas? Inventore officia hic,
-          deserunt doloremque accusantium laborum?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          distinctio facilis eius sunt, repudiandae hic sapiente. Temporibus
+          odit dicta expedita reprehenderit maxime cumque provident suscipit
+          deserunt repellat! Sint sunt consequatur mollitia. Asperiores quidem
+          nam veniam, rerum eum accusamus, ut incidunt expedita non quo fugiat
+          distinctio iure repudiandae reprehenderit, velit consectetur sit porro
+          sed. Laboriosam ratione blanditiis consequuntur nostrum maiores, quo
+          esse animi reiciendis laudantium voluptatem! Ipsa quod reiciendis
+          maxime provident quae laborum doloribus, harum ratione earum optio
+          quas accusamus consequatur quaerat sed repudiandae, incidunt vitae
+          error fugit illum ea sequi impedit ipsam ducimus accusantium? In fugit
+          reiciendis illo vel veritatis quisquam enim delectus fuga ullam,
+          inventore saepe voluptatem ratione neque hic, error incidunt dolorem
+          nobis perspiciatis sapiente suscipit cumque autem?
         </p>
-        <button class="btn1" type="button">Click Me!</button>
+        <div class="projectCards" id="projectCards">
+          <div>
+            <h1>Card 1</h1>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects-content">
+        <h1>Projects</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          distinctio facilis eius sunt, repudiandae hic sapiente. Temporibus
+          odit dicta expedita reprehenderit maxime cumque provident suscipit
+          deserunt repellat! Sint sunt consequatur mollitia. Asperiores quidem
+          nam veniam, rerum eum accusamus, ut incidunt expedita non quo fugiat
+          distinctio iure repudiandae reprehenderit, velit consectetur sit porro
+          sed. Laboriosam ratione blanditiis consequuntur nostrum maiores, quo
+          esse animi reiciendis laudantium voluptatem! Ipsa quod reiciendis
+          maxime provident quae laborum doloribus, harum ratione earum optio
+          quas accusamus consequatur quaerat sed repudiandae, incidunt vitae
+          error fugit illum ea sequi impedit ipsam ducimus accusantium? In fugit
+          reiciendis illo vel veritatis quisquam enim delectus fuga ullam,
+          inventore saepe voluptatem ratione neque hic, error incidunt dolorem
+          nobis perspiciatis sapiente suscipit cumque autem?
+        </p>
+        <div class="project-Cards-wrapper" id="project-Cards-wrapper">
+          <div class="project-Cards">
+            <h1>Card 1 is centered int the middle of the screen</h1>
+            <img src="/img/image1 (Custom).jpg" alt="Example Photo" />
+            <div>
+              <button class="btn1">Live Demo</button>
+              <button class="btn1">Code</button>
+            </div>
+          </div>
+          <div class="project-Cards">
+            <h1>Card 2 is centered int the middle of the screen</h1>
+            <img src="/img/image2 (Custom).jpg" alt="Example Photo" />
+            <div>
+              <button class="btn1">Live Demo</button>
+              <button class="btn1">Code</button>
+            </div>
+          </div>
+          <div class="project-Cards">
+            <h1>Card 3 is centered int the middle of the screen</h1>
+            <img src="/img/image3 (Custom).jpg" alt="Example Photo" />
+            <div>
+              <button class="btn1">Live Demo</button>
+              <button class="btn1">Code</button>
+            </div>
+          </div>
+          <div class="project-Cards">
+            <h1>Card 4 is centered int the middle of the screen</h1>
+            <img src="/img/image4 (Custom).jpg" alt="Example Photo" />
+            <div>
+              <button class="btn1">Live Demo</button>
+              <button class="btn1">Code</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-content">
+        <h1>Contact</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          distinctio facilis eius sunt, repudiandae hic sapiente. Temporibus
+          odit dicta expedita reprehenderit maxime cumque provident suscipit
+          deserunt repellat! Sint sunt consequatur mollitia. Asperiores quidem
+          nam veniam, rerum eum accusamus, ut incidunt expedita non quo fugiat
+          distinctio iure repudiandae reprehenderit, velit consectetur sit porro
+          sed. Laboriosam ratione blanditiis consequuntur nostrum maiores, quo
+          esse animi reiciendis laudantium voluptatem! Ipsa quod reiciendis
+          maxime provident quae laborum doloribus, harum ratione earum optio
+          quas accusamus consequatur quaerat sed repudiandae, incidunt vitae
+          error fugit illum ea sequi impedit ipsam ducimus accusantium? In fugit
+          reiciendis illo vel veritatis quisquam enim delectus fuga ullam,
+          inventore saepe voluptatem ratione neque hic, error incidunt dolorem
+          nobis perspiciatis sapiente suscipit cumque autem?
+        </p>
+        <div class="contactCards" id="contactCards">
+          <div>
+            <h1>Card 1</h1>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
