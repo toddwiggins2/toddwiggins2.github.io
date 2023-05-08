@@ -78,7 +78,8 @@ section {
 }
 
 .topnav a:hover {
-  border-bottom: 2px solid #f2e9e4;
+  border-bottom: 1.5px solid #f2e9e4;
+  color:orangered;
 }
 
 #menu-icon {
@@ -140,6 +141,19 @@ section {
 .idRight {
   background-color: #8c7d89;
   border-radius: 8px;
+}
+
+.social-links {
+  display:flex;
+  justify-content: space-around;
+  color: #22223b;
+  font-size: 5rem;
+  width: 4.4em;
+}
+.social-links a {
+  /* padding: 0 45px 0 45px; */
+  color: #22223b;
+
 }
 
 /* ******************************
