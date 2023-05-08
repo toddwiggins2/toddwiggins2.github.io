@@ -71,7 +71,7 @@ section {
 .topnav a {
   text-decoration: none;
   padding: 1em;
-  border-bottom: 2px solid transparent;
+  border-bottom: 1.5px solid transparent;
   transition: all 0.55 ease;
   font-style: normal;
   font-size: 1.5rem;
@@ -153,7 +153,8 @@ section {
 .social-links a {
   /* padding: 0 45px 0 45px; */
   color: #22223b;
-
+  /* text-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  
 }
 
 /* ******************************
