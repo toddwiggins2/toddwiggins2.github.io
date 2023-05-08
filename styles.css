@@ -5,14 +5,12 @@ html {
   background-color: #22223b;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  /* overflow-y: hidden; */
 }
 body {
-  max-width: 110rem;
+  max-width: 100rem;
   margin: auto;
   display: grid;
   justify-content: center;
-  /* grid-template-columns: 0.4fr 1fr; */
   gap: 0.5rem;
 }
 h1 {
@@ -143,25 +141,18 @@ section {
   background-color: #8c7d89;
   border-radius: 8px;
 }
-/* .idRightTwo {
-  background-color: #8c7d89;
-  border-radius: 8px;
-}
-.idRightThree {
-  background-color: #8c7d89;
-  border-radius: 8px;
-} */
 
 /* ******************************
 *********ABOUT CONTENT***********
 ****************************** */
 .about {
-  align-items: center;
+  /* align-items: center; */
   gap: 0.5rem;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
-  /* padding: 0; */
+  align-items: flex-start;
+  /* padding-bottom: 5rem; */
+  padding-top: 6rem;
 }
 .about-content {
   display: grid;
@@ -172,48 +163,6 @@ section {
 }
 .about-content h1 {
   margin: 0.5rem;
-}
-
-/* ******************************
-*********Resume CONTENT***********
-****************************** */
-.resume {
-  gap: 0.5rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  padding-top: 6rem;
-}
-
-.resume-content {
-  display: grid;
-  background-color: #4a4e69;
-  border-radius: 8px;
-  gap: 0.5rem;
-  padding: 1rem;
-}
-
-.resume-content h1 {
-  margin: 0.5rem;
-}
-
-/* ******************************
-*********EDUCATION CONTENT*******
-****************************** */
-
-.education {
-  align-items: center;
-  gap: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  /* padding: 0; */
-}
-
-.education-content {
-  background-color: #4a4e69;
-  border-radius: 8px;
-  padding: 1rem;
 }
 
 /* ******************************
@@ -278,6 +227,7 @@ section {
   border-radius: 8px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0.4rem;
+  width: 10em;
 }
 
 .btn1:hover {
@@ -356,12 +306,13 @@ section {
     font-size: 70%;
   }
 
-  .projects {
+  .projects,
+  .about {
     padding-top: 3rem;
   }
 
-  .about {
-    padding-top: 0;
+  .project-Cards-wrapper {
+    grid-template-columns: 1fr;
   }
 
   .idPhoto {
@@ -385,3 +336,4 @@ section {
     color: #22223b;
   }
 }
+
