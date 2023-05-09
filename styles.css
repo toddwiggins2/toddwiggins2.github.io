@@ -340,12 +340,13 @@ section {
   .projects,
   .about {
     padding-top: 3rem;
-    min-width: 0;
+    /* min-width: 0; */
+    flex-direction: column;
 
   }
 
   .projects-content, .about-content {
-    /* min-width: auto; */
+    min-width: auto;
   }
 
   .project-Cards-wrapper {
