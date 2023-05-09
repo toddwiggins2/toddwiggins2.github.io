@@ -95,10 +95,12 @@ section {
 .homeSection {
   gap: 0.5rem;
   display: grid;
-  align-items:start;
+  align-items: center;
   justify-content: space-evenly;
   grid-template-columns: 1.75fr 1fr;
   padding-top: 6rem;
+  max-width: 100em;
+  min-width: 100em;
   /* padding: 0; */
 }
 
@@ -168,6 +170,9 @@ section {
   align-items: flex-start;
   /* padding-bottom: 5rem; */
   padding-top: 6rem;
+  max-width: 100em;
+  min-width: 100em;
+
 }
 .about-content {
   display: grid;
@@ -192,6 +197,9 @@ section {
   align-items: flex-start;
   /* padding-bottom: 5rem; */
   padding-top: 6rem;
+  max-width: 100em;
+  min-width: 100em;
+
 }
 
 .projects-content {
@@ -289,8 +297,9 @@ section {
   .header h1 {
     display: none;
   }
-  .homeSection {
+  .homeSection,.about,.projects {
     align-items: start;
+    min-width: 0;
   }
 }
 
@@ -302,6 +311,8 @@ section {
     grid-template-columns: 1fr;
     gap: 0.5rem;
     padding-top: 3rem;
+    min-width: 0;
+
   }
 
   .idList ul {
@@ -325,6 +336,8 @@ section {
   .projects,
   .about {
     padding-top: 3rem;
+    min-width: 0;
+
   }
 
   .project-Cards-wrapper {
