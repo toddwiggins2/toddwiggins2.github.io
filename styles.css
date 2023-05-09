@@ -180,6 +180,8 @@ section {
   border-radius: 8px;
   gap: 0.5rem;
   padding: 1rem;
+  min-width: 100em;
+
 }
 .about-content h1 {
   margin: 0.5rem;
@@ -208,6 +210,8 @@ section {
   border-radius: 8px;
   gap: 0.5rem;
   padding: 1rem;
+  min-width: 100em;
+
 }
 
 .projects-content h1 {
@@ -311,7 +315,7 @@ section {
     grid-template-columns: 1fr;
     gap: 0.5rem;
     padding-top: 3rem;
-    min-width: 0;
+    min-width: auto;
 
   }
 
@@ -338,6 +342,10 @@ section {
     padding-top: 3rem;
     min-width: 0;
 
+  }
+
+  .projects-content, .about-content {
+    min-width: auto;
   }
 
   .project-Cards-wrapper {
