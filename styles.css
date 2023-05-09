@@ -42,6 +42,19 @@ section {
   padding-top: 4rem;
 }
 
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1.5s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
 /* ******************************
 *****Header Top Nav CONTENT***********
 ****************************** */
@@ -123,6 +136,10 @@ section {
 
 .idList h1 {
   font-size: 5rem;
+  margin: 8px;
+}
+.idList h2 {
+  font-size: 4rem;
   margin: 8px;
 }
 
