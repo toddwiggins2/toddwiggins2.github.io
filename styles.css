@@ -129,7 +129,6 @@ section {
   justify-content: left;
 }
 .idList {
-  /* background-color: rgb(23, 139, 0); */
   border-radius: 8px;
   color: #f2e9e4;
 }
@@ -168,8 +167,10 @@ section {
   justify-content: space-around;
   color: #22223b;
   font-size: 5rem;
-  width: 4.4em;
+  width: 315px;
+  align-content: center;
 }
+
 .social-links a {
   /* padding: 0 45px 0 45px; */
   color: #22223b;
@@ -189,7 +190,6 @@ section {
   padding-top: 6rem;
   max-width: 100em;
   min-width: 100em;
-
 }
 .about-content {
   display: grid;
@@ -198,7 +198,6 @@ section {
   gap: 0.5rem;
   padding: 1rem;
   min-width: 100em;
-
 }
 .about-content h1 {
   margin: 0.5rem;
@@ -218,7 +217,6 @@ section {
   padding-top: 6rem;
   max-width: 100em;
   min-width: 100em;
-
 }
 
 .projects-content {
@@ -228,7 +226,6 @@ section {
   gap: 0.5rem;
   padding: 1rem;
   min-width: 100em;
-
 }
 
 .projects-content h1 {
@@ -271,7 +268,7 @@ section {
   border-radius: 8px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0.4rem;
-  width: 10em;
+  width: 9em;
 }
 
 .btn1:hover {
@@ -318,7 +315,9 @@ section {
   .header h1 {
     display: none;
   }
-  .homeSection,.about,.projects {
+  .homeSection,
+  .about,
+  .projects {
     align-items: start;
     min-width: 0;
   }
@@ -333,7 +332,6 @@ section {
     gap: 0.5rem;
     padding-top: 3rem;
     min-width: auto;
-
   }
 
   .idList ul {
@@ -359,10 +357,10 @@ section {
     padding-top: 3rem;
     /* min-width: 0; */
     flex-direction: column;
-
   }
 
-  .projects-content, .about-content {
+  .projects-content,
+  .about-content {
     min-width: auto;
   }
 
