@@ -2,6 +2,11 @@ function emailFunction() {
   document.getElementById("contactMe").click();
 }
 
+function githubFunction() {
+  document.getElementById("githubClick").click();
+}
+
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
