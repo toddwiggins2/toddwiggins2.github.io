@@ -345,7 +345,7 @@ section {
   }
 
   .projects-content, .about-content {
-    min-width: auto;
+    /* min-width: auto; */
   }
 
   .project-Cards-wrapper {
