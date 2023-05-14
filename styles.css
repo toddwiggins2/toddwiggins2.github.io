@@ -256,6 +256,40 @@ section {
   width: 100%;
 }
 
+.project-Cards h2 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.project-Cards a {
+  background-color: #22223b;
+  padding: 0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0.4rem;
+  width: 5.5em;
+}
+
+.project-Cards a:hover {
+  /* background-color:#4A4E69; */
+  background-color: #8c7d89;
+  color: #22223b;
+  border: 2px solid;
+  border-color: #22223b;
+  padding: 13px 29px;
+}
+
+.project-Cards a:active {
+  transform: translateY(2px);
+}
+
 .btn1 {
   background-color: #22223b;
   border: none;
@@ -386,7 +420,7 @@ section {
   .idList h2 {
     font-size: 2rem;
     margin: 8px;
-  }  
+  }
 
   .idList p {
     font-size: 1.9rem;
