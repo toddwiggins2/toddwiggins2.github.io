@@ -7,11 +7,13 @@ html {
   overflow-x: hidden;
 }
 body {
-  max-width: 100rem;
-  margin: auto;
+  /* max-width: 100rem; */
+  margin: 0;
+  padding: 0;
+  border: 0;
   display: grid;
   justify-content: center;
-  gap: 0.5rem;
+  /* gap: 0.5rem; */
 }
 h1 {
   color: #f2e9e4;
@@ -40,6 +42,7 @@ ul {
 section {
   min-height: 100vh;
   padding-top: 4rem;
+  width: 100%;
 }
 
 .hidden {
@@ -75,10 +78,6 @@ section {
   font-size: 1.75rem;
 }
 .topnav {
-  /* display: flex; */
-  /* justify-content: right; */
-  /* justify-content: flex-end; */
-  /* padding: 1rem; */
   padding-right: 8em;
 }
 .topnav a {
@@ -332,7 +331,7 @@ section {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } */
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1024px) {
   .header {
     justify-content: center;
   }
@@ -351,6 +350,21 @@ section {
   .header h1 {
     display: none;
   }
+
+  .project-Cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .about-content {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .projects-content {
+    min-width: 0;
+    width: 100%;
+  }
+
   .homeSection,
   .about,
   .projects {
@@ -427,5 +441,9 @@ section {
   .idList p {
     font-size: 1.9rem;
     color: #22223b;
+  }
+
+  .idSection {
+    width: 100%;
   }
 }
