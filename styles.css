@@ -82,7 +82,7 @@ section {
 }
 .topnav a {
   text-decoration: none;
-  padding: 1em;
+  padding: 1em 1em 0.5em 1em;
   border-bottom: 1.5px solid transparent;
   transition: all 0.55 ease;
   font-style: normal;
@@ -254,6 +254,7 @@ section {
   object-fit: contain;
   height: 100%;
   width: 100%;
+  border-radius: 8px;
 }
 
 .project-Cards h2 {
@@ -331,7 +332,7 @@ section {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1630px) {
   .header {
     justify-content: center;
   }
